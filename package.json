@@ -1,0 +1,32 @@
+{
+    "name": "wizeline_assessment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "wdio run test/wdio.conf.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/moisesruiz21/Wizeline_Assessment.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/moisesruiz21/Wizeline_Assessment/issues"
+    },
+    "homepage": "https://github.com/moisesruiz21/Wizeline_Assessment#readme",
+    "devDependencies": {
+        "@wdio/cli": "^7.18.0",
+        "@wdio/local-runner": "^7.18.0",
+        "@wdio/mocha-framework": "^7.18.0",
+        "@wdio/spec-reporter": "^7.18.0",
+        "chromedriver": "^99.0.0",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.2",
+        "wdio-chromedriver-service": "^7.3.1"
+    },
+    "dependencies": {
+        "chai": "^4.3.6"
+    }
+}
